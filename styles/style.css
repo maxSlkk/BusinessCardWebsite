@@ -1,0 +1,30 @@
+.bg {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  color: #fff;
+}
+
+.bg p{
+  font-size: 24pt;
+}
+
+/* @media only screen and (max-width: 420px) {
+  .bg #main-bg-p{
+    padding-top: 25%;
+  }
+} */
+
+@media screen and (orientation:portrait) {
+
+}
+
+@media screen and (orientation:landscape) {
+
+}
