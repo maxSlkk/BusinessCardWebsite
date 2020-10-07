@@ -1,4 +1,5 @@
-.bg {
+.bg
+{
   height: 100vh;
   min-height: 500px;
   background-image: url('../images/bg.jpg');
@@ -11,7 +12,8 @@
   color: #fff;
 }
 
-.bg p{
+.bg p
+{
   font-size: 24pt;
 }
 
@@ -21,6 +23,7 @@
   text-align: justify;
 }
 
-footer{
+footer
+{
   color: white;
 }
