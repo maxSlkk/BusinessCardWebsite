@@ -27,3 +27,13 @@ footer
 {
   color: white;
 }
+
+#mainContent
+{
+  padding-top: 80px;
+}
+
+hr
+{
+  background-color: darkgrey;
+}
