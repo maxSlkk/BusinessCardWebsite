@@ -11,7 +11,19 @@
 
   color: #fff;
 }
+.bg2
+{
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../images/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.8);
 
+  color: #fff;
+}
 .bg p
 {
   font-size: 24pt;
