@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="../styles/style.css">
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
 
 <body>
@@ -30,6 +31,7 @@
     </div>
   </nav>
 
+  <!-- Info about cars -->
   <div id="mainContent" class="container-fluid px-5">
     <div class="row pt-4">
       <div class="col">
@@ -38,107 +40,316 @@
       </div>
     </div>
 
+    <!-- AUDI A5 -->
     <div class="row mt-4">
       <div class="col">
         <p class="text-center display-4">Audi A5</p>
       </div>
-      
     </div>
     <div class="row mb-5">
-
       <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-6 mt-3">
-        <img src="../images/cars/audi_a5_before.jpeg" class="img-fluid" alt="Audi A5 before repair">
+        <a data-fancybox="gallery-a5" href="../images/cars/audi_a5_before.jpeg">
+          <img class="img-fluid" src="../images/cars/audi_a5_before.jpeg">
+        </a>
+        <!-- <img src="../images/cars/audi_a5_before.jpeg" class="img-fluid" alt="Audi A5 before repair"> -->
       </div>
       <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-6 mt-3">
-        <img src="../images/cars/audi_a5_after.jpg" class="img-fluid" alt="Audi A5 after repair">
+        <a data-fancybox="gallery-a5" href="../images/cars/audi_a5_after.jpg">
+          <img src="../images/cars/audi_a5_after.jpg" class="img-fluid" alt="Audi A5 after repair">
+        </a>
       </div>
-
       <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3">
-          <table class="table table-bordered table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Characteristic</th>
-                <th scope="col">Value</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th>Year</th>
-                <td>2014</td>
-              </tr>
-              <tr>
-                <th>Drive type</th>
-                <td>AWD</td>
-              </tr>
-              <tr>
-                <th>Body type</th>
-                <td>Coupe</td>
-              </tr>
-              <tr>
-                <th>Bought for</th>
-                <td>$25 000</td>
-              </tr>
-              <tr>
-                <th>Sold for</th>
-                <td>$35 000</td>
-              </tr>
-            </tbody>
-          </table>
-        
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Characteristic</th>
+              <th scope="col">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Year</th>
+              <td>2014</td>
+            </tr>
+            <tr>
+              <th>Drive type</th>
+              <td>AWD</td>
+            </tr>
+            <tr>
+              <th>Body type</th>
+              <td>Coupe</td>
+            </tr>
+            <tr>
+              <th>Bought for</th>
+              <td>$6 000</td>
+            </tr>
+            <tr>
+              <th>Sold for</th>
+              <td>$15 500</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-            
     </div>
-<hr>
-<div class="row mt-5">
+
+    <!-- AUDI Q8 -->
+    <hr>
+    <div class="row mt-5">
       <div class="col">
         <p class="text-center display-4">Audi Q8</p>
       </div>
-      
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-6 mt-3">
+        <a data-fancybox="gallery-q8" href="../images/cars/audi_q8_before.jpeg">
+          <img src="../images/cars/audi_q8_before.jpeg" class="img-fluid" alt="Audi Q8 before repair">
+        </a>
+      </div>
+      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-6 mt-3">
+        <a data-fancybox="gallery-q8" href="../images/cars/audi_q8_after.jpg">
+          <img src="../images/cars/audi_q8_after.jpg" class="img-fluid" alt="Audi A5 after repair">
+        </a>
+      </div>
+      <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Characteristic</th>
+              <th scope="col">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Year</th>
+              <td>2020</td>
+            </tr>
+            <tr>
+              <th>Drive type</th>
+              <td>AWD</td>
+            </tr>
+            <tr>
+              <th>Body type</th>
+              <td>SUV</td>
+            </tr>
+            <tr>
+              <th>Bought for</th>
+              <td>$25 700</td>
+            </tr>
+            <tr>
+              <th>Sold for</th>
+              <td>$45 700</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
+    <!-- BMW M6 -->
+    <hr>
+    <div class="row mt-5">
+      <div class="col">
+        <p class="text-center display-4">BMW M6</p>
+      </div>
+    </div>
     <div class="row">
-
       <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-6 mt-3">
-        <img src="../images/cars/audi_q8_before.jpeg" class="img-fluid" alt="Audi A5 before repair">
+        <a data-fancybox="gallery-m6" href="../images/cars/bmw_m6_before.jpg">
+          <img src="../images/cars/bmw_m6_before.jpg" class="img-fluid" alt="BMW M6 before repair">
+        </a>
       </div>
       <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-6 mt-3">
-        <img src="../images/cars/audi_q8_after.jpg" class="img-fluid" alt="Audi A5 after repair">
+        <a data-fancybox="gallery-m6" href="../images/cars/bmw_m6_after.jpg">
+          <img src="../images/cars/bmw_m6_after.jpg" class="img-fluid" alt="BMW M6 after repair">
+        </a>
       </div>
-
       <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3">
-          <table class="table table-bordered table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Characteristic</th>
-                <th scope="col">Value</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th>Year</th>
-                <td>2014</td>
-              </tr>
-              <tr>
-                <th>Drive type</th>
-                <td>AWD</td>
-              </tr>
-              <tr>
-                <th>Body type</th>
-                <td>Coupe</td>
-              </tr>
-              <tr>
-                <th>Bought for</th>
-                <td>$25 000</td>
-              </tr>
-              <tr>
-                <th>Sold for</th>
-                <td>$35 000</td>
-              </tr>
-            </tbody>
-          </table>
-        
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Characteristic</th>
+              <th scope="col">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Year</th>
+              <td>2010</td>
+            </tr>
+            <tr>
+              <th>Drive type</th>
+              <td>RWD</td>
+            </tr>
+            <tr>
+              <th>Body type</th>
+              <td>Sport Coupe</td>
+            </tr>
+            <tr>
+              <th>Bought for</th>
+              <td>$11 500</td>
+            </tr>
+            <tr>
+              <th>Sold for</th>
+              <td>$22 000</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-            
+    </div>
+
+    <!-- BMW X5 -->
+    <hr>
+    <div class="row mt-5">
+      <div class="col">
+        <p class="text-center display-4">BMW X5</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-6 mt-3">
+        <a data-fancybox="gallery-x5" href="../images/cars/bmw_x5_before.jpg">
+          <img src="../images/cars/bmw_x5_before.jpg" class="img-fluid" alt="BMW X5 before repair">
+        </a>
+      </div>
+      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-6 mt-3">
+        <a data-fancybox="gallery-x5" href="../images/cars/bmw_x5_after.jpeg">
+          <img src="../images/cars/bmw_x5_after.jpeg" class="img-fluid" alt="BMW X5 after repair">
+        </a>
+      </div>
+      <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Characteristic</th>
+              <th scope="col">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Year</th>
+              <td>2017</td>
+            </tr>
+            <tr>
+              <th>Drive type</th>
+              <td>AWD</td>
+            </tr>
+            <tr>
+              <th>Body type</th>
+              <td>SUV</td>
+            </tr>
+            <tr>
+              <th>Bought for</th>
+              <td>$17 800</td>
+            </tr>
+            <tr>
+              <th>Sold for</th>
+              <td>$29 800</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Porsche Boxter S -->
+    <hr>
+    <div class="row mt-5">
+      <div class="col">
+        <p class="text-center display-4">Porsche Boxter S</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-6 mt-3">
+        <a data-fancybox="gallery-boxter" href="../images/cars/porsche_boxter_before.jpg">
+          <img src="../images/cars/porsche_boxter_before.jpg" class="img-fluid" alt="Porsche Boxter S before repair">
+        </a>
+      </div>
+      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-6 mt-3">
+        <a data-fancybox="gallery-boxter" href="../images/cars/porsche_boxter_after.jpg">
+          <img src="../images/cars/porsche_boxter_after.jpg" class="img-fluid" alt="Porsche Boxter S after repair">
+        </a>
+      </div>
+      <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Characteristic</th>
+              <th scope="col">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Year</th>
+              <td>2013</td>
+            </tr>
+            <tr>
+              <th>Drive type</th>
+              <td>RWD</td>
+            </tr>
+            <tr>
+              <th>Body type</th>
+              <td>Coupe, Cabrio</td>
+            </tr>
+            <tr>
+              <th>Bought for</th>
+              <td>$17 500</td>
+            </tr>
+            <tr>
+              <th>Sold for</th>
+              <td>$28 000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Porsche Cayman S -->
+    <hr>
+    <div class="row mt-5">
+      <div class="col">
+        <p class="text-center display-4">Porsche Cayman S</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-6 mt-3">
+        <a data-fancybox="gallery-cayman" href="../images/cars/porsche_cayman_before.jpg">
+          <img src="../images/cars/porsche_cayman_before.jpg" class="img-fluid" alt="Porsche Cayman S before repair">
+        </a>
+      </div>
+      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-6 mt-3">
+        <a data-fancybox="gallery-cayman" href="../images/cars/porsche_cayman_after.jpg">
+          <img src="../images/cars/porsche_cayman_after.jpg" class="img-fluid" alt="Porsche Cayman S after repair">
+        </a>
+      </div>
+      <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Characteristic</th>
+              <th scope="col">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Year</th>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <th>Drive type</th>
+              <td>RWD</td>
+            </tr>
+            <tr>
+              <th>Body type</th>
+              <td>Sport Coupe</td>
+            </tr>
+            <tr>
+              <th>Bought for</th>
+              <td>$29 000</td>
+            </tr>
+            <tr>
+              <th>Sold for</th>
+              <td>$47 000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
   </div>
@@ -164,6 +375,10 @@
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
     crossorigin="anonymous"></script>
   <script src="../bootstrap/js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script>
+    $.fancybox.defaults.buttons = ["close"];
+  </script>
 </body>
 
 </html>
