@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" href="../images/car_icon.png">
+  <script src="../scripts/clipboard.min.js"></script>
 </head>
 
 <body>
@@ -44,21 +45,24 @@
   </header>
 
   <!-- Contacts -->
-  <div class="container py-5">
+  <div class="container pt-5">
     <div class="row">
-      <div class="col">
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-5">
         <p class="text-center h3 font-weight-normal">Phone</p>
-        <p class="text-center h4 font-weight-light">+380 97 77 77 777</p>
-        <p class="text-center h4 font-weight-light">+380 93 33 33 333</p>
-        <p class="text-center h4 font-weight-light">+380 99 99 99 999</p>
+        <p class="text-center h4 font-weight-light"><a href="tel:+380977777777">+380 (97) 777-77-77</a></p>
+        <p class="text-center h4 font-weight-light"><a href="tel:+380933333333">+380 (93) 333-33-33</a></p>
+        <p class="text-center h4 font-weight-light"><a href="tel:+380999999999">+380 (99) 999-99-99</a></p>
       </div>
-      <div class="col">
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-5">
         <p class="text-center h3 font-weight-normal">Email</p>
-        <p class="text-center h4 font-weight-light">contact@mydreamcar.com</p>
+        <p class="text-center h4 font-weight-light"><a
+            href="mailto:contact@mydreamcar.com?subject=I want a car of my dream!"
+            target="_blank">contact@mydreamcar.com</a></p>
       </div>
-      <div class="col">
+      <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 pb-5">
         <p class="text-center h3 font-weight-normal">Address</p>
-        <p class="text-center h4 font-weight-light">Shevchenka Street, 111</p>
+        <p class="text-center h4 font-weight-light"><a href="https://goo.su/2m0l" target="_blank">Shevchenka Street,
+            111</a></p>
         <p class="text-center h4 font-weight-light">Lviv, Ukraine</p>
       </div>
     </div>
@@ -83,6 +87,9 @@
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
     crossorigin="anonymous"></script>
   <script src="../bootstrap/js/bootstrap.js"></script>
+  <script>
+    new Clipboard('.btn-clipboard');
+  </script>
 </body>
 
 </html>
