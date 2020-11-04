@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../styles/style.css">
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" href="../images/car_icon.png">
 </head>
@@ -91,18 +92,22 @@
 
     <div class="row pb-4 pt-2">
       <div class="col-xl-3 col-lg-2 col-md-1"></div>
-      <div class="col-xl-6 col-lg-8 col-md-10">
+      <div class="col-xl-6 col-lg-8 col-md-10 col-sm-12 col-xs-12">
         <div class="row pb-2">
           <div class="col">
             <span class="font-italic">Dodge Challenger SXT, 2015.</span>
           </div>
         </div>
         <div class="row">
-          <div class="col-6">
-            <img src="../images/dodge_chal_before.jpg" class="img-fluid" alt="Dodge Challenger before repair">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-2">
+            <a data-fancybox="gallery-chal" href="../images/dodge_chal_before.jpg">
+              <img src="../images/dodge_chal_before.jpg" class="img-fluid" alt="Dodge Challenger before repair">
+            </a>
           </div>
-          <div class="col-6">
-            <img src="../images/dodge_chal_after.jpg" class="img-fluid" alt="Dodge Challenger after repair">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <a data-fancybox="gallery-chal" href="../images/dodge_chal_after.jpg">
+              <img src="../images/dodge_chal_after.jpg" class="img-fluid" alt="Dodge Challenger after repair">
+            </a>
           </div>
         </div>
       </div>
@@ -165,6 +170,10 @@
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
     crossorigin="anonymous"></script>
   <script src="../bootstrap/js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script>
+    $.fancybox.defaults.buttons = ["close"];
+  </script>
 </body>
 
 </html>
